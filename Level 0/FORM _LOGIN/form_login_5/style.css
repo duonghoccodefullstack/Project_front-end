@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Lato,
+        Arial,
+        sans-serif;
+    ; 
+    color: #f8f1ee;
+}
+img {
+        width: 200vh;
+        height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: -100px;
+            background-image: url(../form_login_5/img/bg.jpg.webp);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            filter: blur(5px);
+            position: relative;
+}
+.back_ground_blur {
+    position: relative;
+}
+a {
+    text-decoration: none;
+}
+h2 {
+    margin-bottom: 100px;
+    text-align: center;
+}
+.contaner_form_login {
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;   
+    left: 500px;
+    opacity: 1;
+/*     
+box-shadow: 0px 1px 100px 5px grey; */
+border-radius: 10px;
+padding: 1px;
+}
+input {
+    color: white;
+}
+input[type="password"], input[type="Username"] , input[type="text"]{
+    width: 100%;
+    height: 50px;
+    position: relative; 
+    margin-bottom: 10px;
+    border-radius: 50px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgb(144, 157, 170);
+    background: none;
+   
+
+}
+input[type="password"] {
+    position: relative;
+}
+
+input::placeholder {
+    color: #f8f1ee;
+}
+i {
+    position: absolute;
+    right: 10px;
+    margin-top: 15px;
+    color: white;
+}
+.fa-eye {
+position: absolute;
+    right: 10px;
+    top: 190px;
+    color: white;
+}
+.fa-eye-slash {
+    position: absolute;
+        right: 10px;
+        top: 190px;
+        color: white;
+}
+button[type="submit"] {
+        height: 50px;
+        border-radius: 50px;
+        border: none;
+        background-color: #fbceb5;
+        cursor: pointer;
+}
+p {
+    text-align: center;
+}
+
+
+
+
+.contaner_box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.button_contact {
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    gap: 10px;
+    
+}
+button[type="contact_social"] {
+    width: 150px;
+    height: 50px;
+    font-family: serif;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="contact_social"]:hover {
+    background-color: black;
+    color: white;
+}
+#copy {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1;
+}

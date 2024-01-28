@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_5</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="back_ground_blur">
+        <p id="copy">&copy; Copyrigt Login Form V20 in colorlib</p>
+        <img src="../form_login_5/img/bg.jpg" alt="">
+        <div class="contaner_form_login">
+        <div class="contact_form">
+            <h2>Bạn Chưa có ny? Tạo acc đi  </h2>
+        </div>
+        <div class="input_form_login">
+            <input type="Username" name="Username" id="Username" placeholder="Username"  required>
+            <input type="password" name="Password" id="password" placeholder="Password" required>
+            <i class="fa-regular fa-eye" id="on" onclick="togglePasswordVisibility()" ></i>
+            <i class="fa-regular fa-eye-slash" style="display: none;" id="off" onclick="togglePasswordVisibility1()"  > </i>
+        </div>
+        <button type="submit" id="click" >Sign In</button>
+        <div class="contaner_box">
+             <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label> 
+        <a href="#">
+                Forgot Password
+        </a>
+        </div>
+        <p>— Or Sign In With —</p>
+       <div class="button_contact">
+        <button type="contact_social" onclick="Contact()" id="fb">Facebook</button>
+    <button type="contact_social">Twitter</button>
+       </div>
+   
+    </div>
+ 
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
