@@ -21,5 +21,9 @@ Form Login :
 
 ![image](https://github.com/duonghoccodefullstack/Project_front-end/assets/143280316/98617bf8-056f-4955-b2da-aedb59534671)
 
++ Form_5 :
+
+![image](https://github.com/duonghoccodefullstack/Project_front-end/assets/143280316/17b3bc21-7dba-4b47-b526-96e307f64beb)
+
 
 
