@@ -2,6 +2,8 @@ Project in the branch Main
 
 Space_Link :
 ![image](https://github.com/duonghoccodefullstack/Project_front-end/assets/143280316/2c92aa3c-84a6-4456-86cf-245637fc4794)
+Page_Solid_demo :
+![image](https://github.com/duonghoccodefullstack/Project_front-end/assets/143280316/9a432024-58e7-4e13-a74a-5ce1c8a39eac)
 
 Form Login :
 
